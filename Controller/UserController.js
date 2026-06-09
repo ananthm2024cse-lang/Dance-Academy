@@ -14,7 +14,7 @@ const signupUser = async(req,res) => {
             return res.status(400).json({ message: "Email already registered. Please login." });
         }
 
-        const NewUser = new User({ fullname, email, password });
+        const NewUser = new User({ fullname, email: email.toLowerCase().trim(), password });
         const SavedUser = await NewUser.save();
         res.status(200).json({
             message: "User Registered successfully",
