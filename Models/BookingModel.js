@@ -2,6 +2,7 @@ const mongoose = require("mongoose");
 
 const BookingSchema = new mongoose.Schema({
   student: String,
+  email: String,
   className: String,
   date: String,
   status: {
