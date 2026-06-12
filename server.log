@@ -1,0 +1,53 @@
+◇ injected env (1) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+Connection to mongo_db successful...
+Server is running on port 5000
+Body: { email: 'suryasekar626@gmail.com', password: 'Surya@123' }
+User: {
+  _id: new ObjectId('6a27a3ed4d827d738e5f09c7'),
+  fullname: 'Surya Sekar',
+  email: 'suryasekar626@gmail.com',
+  password: 'surya@123',
+  role: 'admin',
+  registrationDate: 2026-06-09T05:26:05.700Z,
+  __v: 0
+}
+Body: { email: 'suryasekar626@gmail.com', password: 'surya@123' }
+User: {
+  _id: new ObjectId('6a27a3ed4d827d738e5f09c7'),
+  fullname: 'Surya Sekar',
+  email: 'suryasekar626@gmail.com',
+  password: 'surya@123',
+  role: 'admin',
+  registrationDate: 2026-06-09T05:26:05.700Z,
+  __v: 0
+}
+Body: { email: 'suryasekar626@gmail.com', password: 'Surya@123' }
+User: {
+  _id: new ObjectId('6a27a3ed4d827d738e5f09c7'),
+  fullname: 'Surya Sekar',
+  email: 'suryasekar626@gmail.com',
+  password: 'surya@123',
+  role: 'admin',
+  registrationDate: 2026-06-09T05:26:05.700Z,
+  __v: 0
+}
+Body: { email: 'suryasekar626@gmail.com', password: 'surya@123' }
+User: {
+  _id: new ObjectId('6a27a3ed4d827d738e5f09c7'),
+  fullname: 'Surya Sekar',
+  email: 'suryasekar626@gmail.com',
+  password: 'surya@123',
+  role: 'admin',
+  registrationDate: 2026-06-09T05:26:05.700Z,
+  __v: 0
+}
+Body: { email: 'kiru@gmail.com', password: '123' }
+User: {
+  _id: new ObjectId('6a27bd18b56636d96185beab'),
+  fullname: 'kiru',
+  email: 'kiru@gmail.com',
+  password: '123',
+  role: 'user',
+  registrationDate: 2026-06-09T07:13:28.613Z,
+  __v: 0
+}
